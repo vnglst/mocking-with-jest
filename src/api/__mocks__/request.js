@@ -9,5 +9,5 @@ const request = (url) => new Promise((resolve, reject) => {
   })
 })
 
-module.exports = request
+export default request
 

@@ -1,4 +1,4 @@
 const rest = require('rest')
 const mime = require('rest/interceptor/mime')
 
-module.exports = rest.wrap(mime)
+export default rest.wrap(mime)
